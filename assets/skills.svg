@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="132" viewBox="0 0 960 132" role="img" aria-labelledby="t">
+  <title id="t">Skills: Python, C++, C, PyTorch, TensorFlow, scikit-learn, OpenCV, Pandas, Seaborn, MySQL, SQLite, Linux, Git</title>
+
+  <defs>
+    <linearGradient id="fg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".1" stop-color="#fff"/>
+      <stop offset=".9" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="fade"><rect width="960" height="132" fill="url(#fg)"/></mask>
+
+    <g id="set" font-family="'SF Mono','Fira Code',ui-monospace,Menlo,Consolas,monospace" font-size="14" font-weight="600">
+      <g transform="translate(0,0)"><rect width="102" height="40" rx="20" fill="#17143a" stroke="#4B8BBE" stroke-opacity=".6"/><circle cx="20" cy="20" r="5" fill="#4B8BBE"/><text x="34" y="25" fill="#ede9fe">Python</text></g>
+      <g transform="translate(116,0)"><rect width="76" height="40" rx="20" fill="#17143a" stroke="#3b9ae1" stroke-opacity=".6"/><circle cx="20" cy="20" r="5" fill="#3b9ae1"/><text x="34" y="25" fill="#ede9fe">C++</text></g>
+      <g transform="translate(206,0)"><rect width="60" height="40" rx="20" fill="#17143a" stroke="#A8B9CC" stroke-opacity=".6"/><circle cx="20" cy="20" r="5" fill="#A8B9CC"/><text x="34" y="25" fill="#ede9fe">C</text></g>
+      <g transform="translate(280,0)"><rect width="110" height="40" rx="20" fill="#17143a" stroke="#EE4C2C" stroke-opacity=".6"/><circle cx="20" cy="20" r="5" fill="#EE4C2C"/><text x="34" y="25" fill="#ede9fe">PyTorch</text></g>
+      <g transform="translate(404,0)"><rect width="134" height="40" rx="20" fill="#17143a" stroke="#FF6F00" stroke-opacity=".6"/><circle cx="20" cy="20" r="5" fill="#FF6F00"/><text x="34" y="25" fill="#ede9fe">TensorFlow</text></g>
+      <g transform="translate(552,0)"><rect width="152" height="40" rx="20" fill="#17143a" stroke="#F7931E" stroke-opacity=".6"/><circle cx="20" cy="20" r="5" fill="#F7931E"/><text x="34" y="25" fill="#ede9fe">scikit-learn</text></g>
+      <g transform="translate(718,0)"><rect width="102" height="40" rx="20" fill="#17143a" stroke="#8b72ff" stroke-opacity=".6"/><circle cx="20" cy="20" r="5" fill="#8b72ff"/><text x="34" y="25" fill="#ede9fe">OpenCV</text></g>
+      <g transform="translate(834,0)"><rect width="102" height="40" rx="20" fill="#17143a" stroke="#E70488" stroke-opacity=".6"/><circle cx="20" cy="20" r="5" fill="#E70488"/><text x="34" y="25" fill="#ede9fe">Pandas</text></g>
+      <g transform="translate(950,0)"><rect width="110" height="40" rx="20" fill="#17143a" stroke="#5aa2c9" stroke-opacity=".6"/><circle cx="20" cy="20" r="5" fill="#5aa2c9"/><text x="34" y="25" fill="#ede9fe">Seaborn</text></g>
+      <g transform="translate(1074,0)"><rect width="92" height="40" rx="20" fill="#17143a" stroke="#5b9bd0" stroke-opacity=".6"/><circle cx="20" cy="20" r="5" fill="#5b9bd0"/><text x="34" y="25" fill="#ede9fe">MySQL</text></g>
+      <g transform="translate(1180,0)"><rect width="102" height="40" rx="20" fill="#17143a" stroke="#0F80CC" stroke-opacity=".6"/><circle cx="20" cy="20" r="5" fill="#0F80CC"/><text x="34" y="25" fill="#ede9fe">SQLite</text></g>
+      <g transform="translate(1296,0)"><rect width="92" height="40" rx="20" fill="#17143a" stroke="#FCC624" stroke-opacity=".6"/><circle cx="20" cy="20" r="5" fill="#FCC624"/><text x="34" y="25" fill="#ede9fe">Linux</text></g>
+      <g transform="translate(1402,0)"><rect width="76" height="40" rx="20" fill="#17143a" stroke="#F05032" stroke-opacity=".6"/><circle cx="20" cy="20" r="5" fill="#F05032"/><text x="34" y="25" fill="#ede9fe">Git</text></g>
+    </g>
+  </defs>
+
+  <style>
+    .r1 { animation: left 50s linear infinite; }
+    .r2 { animation: right 60s linear infinite; }
+    @keyframes left  { from { transform: translateX(0); }       to { transform: translateX(-1492px); } }
+    @keyframes right { from { transform: translateX(-1492px); } to { transform: translateX(0); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <g mask="url(#fade)">
+    <g transform="translate(0,14)">
+      <g class="r1">
+        <use xlink:href="#set"/>
+        <use xlink:href="#set" x="1492"/>
+      </g>
+    </g>
+    <g transform="translate(0,76)">
+      <g class="r2" style="animation-delay:-18s">
+        <use xlink:href="#set" x="-746"/>
+        <use xlink:href="#set" x="746"/>
+        <use xlink:href="#set" x="2238"/>
+      </g>
+    </g>
+  </g>
+</svg>

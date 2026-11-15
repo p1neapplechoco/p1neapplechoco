@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="t d">
+  <title id="t">An (Thien) Nguyen</title>
+  <desc id="d">Animated banner: Undergraduate Researcher in Artificial Intelligence, cycling through research areas over a pulsing neural network.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f0c29"/>
+      <stop offset=".55" stop-color="#2a2560"/>
+      <stop offset="1" stop-color="#1a1740"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6e40c9" stop-opacity=".1"/>
+      <stop offset=".5" stop-color="#a78bfa" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#6e40c9" stop-opacity=".1"/>
+    </linearGradient>
+    <linearGradient id="name" gradientUnits="userSpaceOnUse" x1="200" y1="0" x2="760" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#ffffff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="-1120 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="45"/>
+    </filter>
+    <clipPath id="clip"><rect width="960" height="300" rx="18"/></clipPath>
+
+    <g id="edges" fill="none">
+      <line x1="45" y1="65" x2="110" y2="145"/>
+      <line x1="110" y1="145" x2="50" y2="225"/>
+      <line x1="45" y1="65" x2="165" y2="45"/>
+      <line x1="165" y1="45" x2="110" y2="145"/>
+      <line x1="110" y1="145" x2="150" y2="205"/>
+      <line x1="50" y1="225" x2="175" y2="260"/>
+      <line x1="175" y1="260" x2="150" y2="205"/>
+      <line x1="915" y1="65" x2="850" y2="145"/>
+      <line x1="850" y1="145" x2="910" y2="225"/>
+      <line x1="915" y1="65" x2="795" y2="45"/>
+      <line x1="795" y1="45" x2="850" y2="145"/>
+      <line x1="850" y1="145" x2="810" y2="205"/>
+      <line x1="910" y1="225" x2="785" y2="260"/>
+      <line x1="785" y1="260" x2="810" y2="205"/>
+      <line x1="165" y1="45" x2="795" y2="45"/>
+      <line x1="175" y1="260" x2="785" y2="260"/>
+    </g>
+  </defs>
+
+  <style>
+    .f { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .m { font-family: 'SF Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace; }
+
+    .fl { stroke: #c4b5fd; stroke-width: 1.8; stroke-linecap: round; stroke-dasharray: 1 18; animation: flow 2.4s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -57; } }
+
+    .h { fill: none; stroke: #a78bfa; stroke-width: 1; vector-effect: non-scaling-stroke;
+         transform-box: fill-box; transform-origin: center; animation: halo 3.6s ease-out infinite; }
+    @keyframes halo { 0% { transform: scale(1); opacity: .9; } 100% { transform: scale(4.5); opacity: 0; } }
+
+    .p { fill: #c4b5fd; opacity: 0; animation: drift 9s ease-in-out infinite; }
+    @keyframes drift {
+      0%   { transform: translateY(0); opacity: 0; }
+      20%  { opacity: .75; }
+      100% { transform: translateY(-90px); opacity: 0; }
+    }
+
+    .rise { opacity: 0; animation: rise 1.1s cubic-bezier(.2, .8, .2, 1) forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+
+    .draw { stroke-dasharray: 220; stroke-dashoffset: 220; animation: draw 1.2s ease-out .9s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+
+    .cy { opacity: 0; animation: cy 15s infinite both; }
+    @keyframes cy {
+      0%   { opacity: 0; transform: translateY(10px); }
+      3%   { opacity: 1; transform: translateY(0); }
+      17%  { opacity: 1; transform: translateY(0); }
+      20%  { opacity: 0; transform: translateY(-10px); }
+      100% { opacity: 0; }
+    }
+    .caret { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .rise { opacity: 1; }
+      .draw { stroke-dashoffset: 0; }
+      .c0 { opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#clip)">
+    <rect width="960" height="300" fill="url(#bg)"/>
+
+    <g filter="url(#blur)" opacity=".55">
+      <circle cx="200" cy="80" r="110" fill="#6d28d9">
+        <animate attributeName="cx" values="200;430;200" dur="14s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="80;210;80" dur="11s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="760" cy="220" r="120" fill="#2563eb">
+        <animate attributeName="cx" values="760;520;760" dur="16s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="220;90;220" dur="12s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <use xlink:href="#edges" stroke="#7c6bd6" stroke-opacity=".35" stroke-width="1"/>
+    <use xlink:href="#edges" class="fl"/>
+
+    <g fill="#ddd6fe">
+      <circle cx="45" cy="65" r="3.5"/><circle cx="110" cy="145" r="3.5"/><circle cx="50" cy="225" r="3.5"/>
+      <circle cx="165" cy="45" r="3.5"/><circle cx="175" cy="260" r="3.5"/><circle cx="150" cy="205" r="3.5"/>
+      <circle cx="915" cy="65" r="3.5"/><circle cx="850" cy="145" r="3.5"/><circle cx="910" cy="225" r="3.5"/>
+      <circle cx="795" cy="45" r="3.5"/><circle cx="785" cy="260" r="3.5"/><circle cx="810" cy="205" r="3.5"/>
+    </g>
+    <circle class="h" cx="45" cy="65" r="4" style="animation-delay:-0.2s"/>
+    <circle class="h" cx="110" cy="145" r="4" style="animation-delay:-1.4s"/>
+    <circle class="h" cx="50" cy="225" r="4" style="animation-delay:-2.6s"/>
+    <circle class="h" cx="165" cy="45" r="4" style="animation-delay:-0.8s"/>
+    <circle class="h" cx="175" cy="260" r="4" style="animation-delay:-3.0s"/>
+    <circle class="h" cx="150" cy="205" r="4" style="animation-delay:-1.9s"/>
+    <circle class="h" cx="915" cy="65" r="4" style="animation-delay:-2.2s"/>
+    <circle class="h" cx="850" cy="145" r="4" style="animation-delay:-0.5s"/>
+    <circle class="h" cx="910" cy="225" r="4" style="animation-delay:-3.3s"/>
+    <circle class="h" cx="795" cy="45" r="4" style="animation-delay:-1.1s"/>
+    <circle class="h" cx="785" cy="260" r="4" style="animation-delay:-2.9s"/>
+    <circle class="h" cx="810" cy="205" r="4" style="animation-delay:-1.7s"/>
+
+    <circle class="p" cx="260" cy="270" r="1.5" style="animation-delay:0s"/>
+    <circle class="p" cx="320" cy="285" r="1.2" style="animation-delay:-2s;animation-duration:11s"/>
+    <circle class="p" cx="400" cy="275" r="1.6" style="animation-delay:-4s;animation-duration:8s"/>
+    <circle class="p" cx="480" cy="290" r="1.2" style="animation-delay:-6s;animation-duration:10s"/>
+    <circle class="p" cx="560" cy="272" r="1.5" style="animation-delay:-1s;animation-duration:12s"/>
+    <circle class="p" cx="640" cy="288" r="1.3" style="animation-delay:-5s;animation-duration:9s"/>
+    <circle class="p" cx="700" cy="278" r="1.6" style="animation-delay:-3s;animation-duration:10s"/>
+    <circle class="p" cx="230" cy="150" r="1.2" style="animation-delay:-7s;animation-duration:13s"/>
+    <circle class="p" cx="730" cy="140" r="1.4" style="animation-delay:-8s;animation-duration:12s"/>
+    <circle class="p" cx="360" cy="40" r="1.2" style="animation-delay:-2.5s;animation-duration:14s"/>
+    <circle class="p" cx="600" cy="50" r="1.4" style="animation-delay:-9s;animation-duration:11s"/>
+
+    <text class="f rise" x="480" y="140" text-anchor="middle" font-size="58" font-weight="700" fill="url(#name)" style="animation-delay:.2s">An (Thien) Nguyen</text>
+
+    <text class="f rise" x="480" y="176" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="3.2" fill="#c4b5fd" style="animation-delay:.55s">UNDERGRADUATE RESEARCHER IN ARTIFICIAL INTELLIGENCE</text>
+
+    <line class="draw" x1="370" y1="194" x2="590" y2="194" stroke="url(#rule)" stroke-width="1.5" stroke-linecap="round"/>
+
+    <g class="m" font-size="20" text-anchor="middle" fill="#a78bfa">
+      <text class="cy c0" x="480" y="238" style="animation-delay:1.6s">▸ Multimodal Learning</text>
+      <text class="cy" x="480" y="238" style="animation-delay:4.6s">▸ Vision-Language Models</text>
+      <text class="cy" x="480" y="238" style="animation-delay:7.6s">▸ Natural Language Processing</text>
+      <text class="cy" x="480" y="238" style="animation-delay:10.6s">▸ Computer Vision</text>
+      <text class="cy" x="480" y="238" style="animation-delay:13.6s">▸ Robustness under Distribution Shift</text>
+    </g>
+
+    <rect x=".5" y=".5" width="959" height="299" rx="18" fill="none" stroke="url(#border)"/>
+  </g>
+</svg>

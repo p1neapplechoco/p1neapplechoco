@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="28" viewBox="0 0 960 28" role="presentation" aria-hidden="true">
+  <defs>
+    <linearGradient id="ln" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6e40c9" stop-opacity="0"/>
+      <stop offset=".35" stop-color="#6e40c9" stop-opacity=".8"/>
+      <stop offset=".5" stop-color="#a78bfa"/>
+      <stop offset=".65" stop-color="#6e40c9" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#6e40c9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .dia { transform-box: fill-box; transform-origin: center; animation: pulse 3s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { transform: rotate(45deg) scale(1); } 50% { transform: rotate(225deg) scale(1.35); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <rect x="0" y="13" width="960" height="2" rx="1" fill="url(#ln)"/>
+  <rect y="12.5" width="120" height="3" rx="1.5" fill="url(#glint)" opacity=".9">
+    <animate attributeName="x" values="-120;960" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect class="dia" x="475" y="9" width="10" height="10" fill="#a78bfa" transform="rotate(45 480 14)"/>
+</svg>

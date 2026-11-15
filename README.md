@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=240&section=header&text=An%20(Thien)%20Nguyen&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Undergraduate%20Researcher%20in%20Artificial%20Intelligence&descSize=20&descAlignY=60&animation=fadeIn" alt="banner" width="100%" />
-
-<a href="https://github.com/p1neapplechoco">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Multimodal+Learning;Vision-Language+Models;Natural+Language+Processing;Computer+Vision;Robustness+under+Distribution+Shift" alt="Typing animation" />
-</a>
+<img src="assets/hero.svg" alt="An (Thien) Nguyen - Undergraduate Researcher in Artificial Intelligence" width="100%" />
 
 <br/>
 
@@ -22,7 +18,7 @@
 
 </div>
 
-<br/>
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ## 🧠 Research Statement
 
@@ -30,21 +26,11 @@ I am an undergraduate researcher in artificial intelligence working on **multimo
 
 I am particularly motivated by settings in which standard benchmark performance is an insufficient indicator of model quality, namely edge cases, cross-domain generalization, and robustness under distribution shift.
 
-```mermaid
-flowchart LR
-    T["Text"] --> E1["Language Encoder"]
-    V["Vision"] --> E2["Visual Encoder"]
-    E1 --> F{{"Alignment and Fusion"}}
-    E2 --> F
-    F --> D["Downstream Reasoning"]
-    D --> R["Robustness Evaluation"]
-    R -. "failure analysis" .-> F
+<div align="center">
+  <img src="assets/pipeline.svg" alt="Animated diagram of a multimodal pipeline: text and vision encoders feed an alignment and fusion core, followed by downstream reasoning and robustness evaluation, with failure analysis fed back into fusion" width="100%" />
+</div>
 
-    style F fill:#6e40c9,stroke:#a78bfa,color:#fff
-    style R fill:#302b63,stroke:#a78bfa,color:#fff
-```
-
-<br/>
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ## 🔬 Research Interests
 
@@ -71,40 +57,32 @@ flowchart LR
   </tr>
 </table>
 
-<br/>
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ## 🛠️ Technical Skills
 
-**Programming Languages**
+<div align="center">
+  <img src="assets/skills.svg" alt="Python, C++, C, PyTorch, TensorFlow, scikit-learn, OpenCV, Pandas, Seaborn, MySQL, SQLite, Linux, Git" width="100%" />
+</div>
 
-<img src="https://cdn.simpleicons.org/python/3776AB?size=28" alt="Python" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/cplusplus/00599C?size=28" alt="C++" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/c/A8B9CC?size=28" alt="C" />
-
-**Machine Learning and Data Analysis**
-
-<img src="https://cdn.simpleicons.org/pytorch/EE4C2C?size=28" alt="PyTorch" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/tensorflow/FF6F00?size=28" alt="TensorFlow" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/scikitlearn/F7931E?size=28" alt="scikit-learn" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/opencv/5C3EE8?size=28" alt="OpenCV" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/pandas/150458?size=28" alt="Pandas" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/seaborn/3776AB?size=28" alt="Seaborn" />
-
-**Data Management and Tooling**
-
-<img src="https://cdn.simpleicons.org/mysql/4479A1?size=28" alt="MySQL" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/sqlite/003B57?size=28" alt="SQLite" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/linux/FCC624?size=28" alt="Linux" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/git/F05032?size=28" alt="Git" />
-
-<br/>
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ## 📊 Open-Source Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=p1neapplechoco&show_icons=true&theme=radical&count_private=true&hide_border=true" height="170" alt="GitHub Stats" />
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=p1neapplechoco&layout=compact&theme=radical&langs_count=10&hide_border=true" height="170" alt="Top Languages" />
+<img src="https://github-readme-stats-fast.vercel.app/api?username=p1neapplechoco&show_icons=true&theme=radical&hide_border=true" height="170" alt="GitHub Stats" />
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=p1neapplechoco&layout=compact&theme=radical&langs_count=10&hide_border=true" height="170" alt="Top Languages" />
 
 <img src="https://streak-stats.demolab.com?user=p1neapplechoco&theme=radical&hide_border=true" alt="GitHub Streak" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=p1neapplechoco&theme=radical&column=7&margin-w=10&margin-h=10&no-frame=true" alt="GitHub Trophies" />
+<img src="https://github-trophies.vercel.app/?username=p1neapplechoco&theme=radical&column=7&margin-w=10&margin-h=10&no-frame=true" alt="GitHub Trophies" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=p1neapplechoco&theme=react-dark&hide_border=true&area=true&color=a78bfa&line=6e40c9&point=ffffff" alt="Contribution Graph" width="100%" />
+<img src="https://github-act-graph.rodriaum.com/graph?username=p1neapplechoco&theme=react-dark&hide_border=true&area=true&color=a78bfa&line=6e40c9&point=ffffff" alt="Contribution Graph" width="100%" />
 
 </div>
 
-<br/>
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ## 📬 Get in Touch
 
@@ -114,6 +92,6 @@ Open to research collaborations and discussions on multimodal learning.
 
 [![Email](https://img.shields.io/badge/ngthienaans%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ngthienaans@gmail.com)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=140&section=footer" alt="footer" width="100%" />
+<img src="assets/footer.svg" alt="" width="100%" />
 
 </div>
